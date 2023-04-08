@@ -1,77 +1,39 @@
 body {
-	font-family: Sim Sun;
-	margin: 0;
-	font-size: 20px;
-	background-color: white;
+	color: #364F6B;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
 }
 
 a {
 	text-decoration: none;
+	color: #364F6B;
 }
 
-#container {
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#header {
-	text-align: center;
+.nav {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 20px;
-	color: white;
-	padding-left: 20px;
-	background-color: #659DBD;
-	border-bottom: 2px solid black;
+	line-height: 50px;
 }
 
-#content {
-	padding: 10px;
-}
-
-#about {
-	width: 180px;
-	float: right;
-	margin-bottom: 20px;
-}
-
-#nav .selected {
-	font-weight: bold;
-}
-
-#nav a {
-	color: white;
-}
-
-#nav ul {
-	list-style-type: none;
-	padding: 0;
-	text-align: right;
-}
-
-#nav {
+.nav ul {
 	display: flex;
-	flex-direction: row;
+	 list-style-type: none;
+	 text-align: center;
 }
 
-#main {
-	width: 550px;
-	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
-	height: 592px;
+.nav li {
+	padding-right: 12px;
+	font-size: 20px;
 }
 
-#footer {
-	vertical-align: center;
-	clear: both;
-	padding: 10px;
-	background-color: #1A1A1D;
-	/*border-top: 5px solid black;*/
-	height: 102px;
-	color: white;
+img {
+	object-fit: cover;
 }
 
-#footer p {
-	font-size: 15px;
+.main {
+	border: 3px solid #364F6B;
+	padding: 10px 20px;
 }
