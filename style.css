@@ -36,6 +36,21 @@ img {
 .main {
 	border: 3px solid #364F6B;
 	padding: 10px 20px;
+	margin-bottom: 15px;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+.icon {
+	padding: 5px;
+}
+
+footer {
+	text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
