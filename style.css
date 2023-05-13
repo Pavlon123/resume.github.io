@@ -31,6 +31,7 @@ a {
 
 img {
 	object-fit: cover;
+	max-width: 100%;
 }
 
 .main {
@@ -51,6 +52,10 @@ img {
 
 footer {
 	text-align: center;
+}
+
+p {
+	font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
