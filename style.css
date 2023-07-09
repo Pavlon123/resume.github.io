@@ -34,10 +34,10 @@ a {
 }
 
 .fill {
-	height: 200px;
-	background-color: red;
+	height: 150px;
+	width: 100%;
 	margin-bottom: 15px; 
-	object-fit: fill;
+	object-fit: cover;
 }
 
 .main {
@@ -87,5 +87,16 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	padding-left: 10px;
+}
+
+.nav li {
+	border-bottom: 1px solid #364F6B;
+	width: 100px;
+	margin: auto;
+	font-size: 15px;
+}
+
+p {
+	font-size: 15px;
 }
 }
