@@ -1,0 +1,153 @@
+body {
+	color: white;
+	font-family: 'Catamaran', sans-serif;
+	background-image: url("../Pracovna/background_a.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+.box {
+	background-color: rgba(0,0,0,0.5);
+	margin-bottom: 20px;
+	border: 1px solid white;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+li {
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+footer {
+	text-align: center;
+}
+
+.blog-section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.blog-card {
+	width: 475px;
+}
+
+.photo {
+	width: 475px;
+	height: 350px;
+	object-fit: cover;
+	background-size: 100%;
+	transition: 0.5s;
+}
+
+.photo:hover {
+	filter: brightness(0.7);
+}
+
+.post-title {
+	margin-left: 20px;
+}
+
+h3 {
+	margin-top: 5px;
+}
+
+h6 {
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.subtext {
+	margin: 20px;
+	font-size: 18px;
+}
+
+footer {
+	font-weight: 300;
+}
+
+.social {
+	padding: 10px;
+}
+.social a:hover {
+	filter: contrast(20%);
+}
+
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+.container {
+	width: 100%;
+}
+
+.blog-card {
+	display: flex;
+	flex-direction: column;
+}
+
+.photo {
+	width: 100%;
+}
+
+.subtext {
+	margin: 10px;
+}
+
+p {
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 970px) {
+  /* For mobile phones: */
+.container {
+	width: 100%;
+}
+
+.blog-card {
+	display: column;
+	width: 100%;
+}
+
+.photo {
+	width: 100%;
+}
+
+.subtext {
+	margin: 10px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.post-title {
+	margin-left: 10px;
+}
