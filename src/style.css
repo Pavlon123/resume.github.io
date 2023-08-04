@@ -125,6 +125,11 @@ p {
 	font-size: 15px;
 }
 
+.donate {
+	position: absolute;
+	right: 0;
+}
+
 @media only screen and (max-width: 970px) {
   /* For mobile phones: */
 .container {
